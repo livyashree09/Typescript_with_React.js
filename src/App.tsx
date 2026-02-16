@@ -1,9 +1,13 @@
 // import ParentProps from "./Components/ParentProps"
-// import Passwordusage from "./Components/Passwordusage";
-import Countintervals from "./Components/Countintervals";
-import CountuseEffect from "./Components/Countuseeffect";
-import Temperaturewarningconrender from "./Components/Temperaturewarningconrender";
-import UsercontextExample from "./Components/UsercontextExample";
+// // import Passwordusage from "./Components/Passwordusage";
+// import Countintervals from "./Components/Countintervals";
+// import CountuseEffect from "./Components/Countuseeffect";
+// import Temperaturewarningconrender from "./Components/Temperaturewarningconrender";
+// import UsercontextExample from "./Components/UsercontextExample";
+// import UseReducer from "./Components/UseReducer";
+import UseCallback from "./Components/UseCallback";
+import UseMemo from "./Components/UseMemo";
+import WithoutuseMemo from "./Components/WithoutuseMemo";
 // import Useref from "./Components/Useref";
 // import UserStatus from "./Components/UserStatus";
 // import Usestate from "./Components/Usestate"
@@ -14,16 +18,19 @@ function App() {
 
   return (
     <>
-    {/* <ParentProps/>
+    {/* {/* <ParentProps/>
     <Usestate/>
     <Useref/>
     <UserStatus />
     <Passwordusage /> */}
-    <Temperaturewarningconrender />
+    {/* <Temperaturewarningconrender />
     <CountuseEffect />
     <Countintervals />
     <UsercontextExample />
-      
+    <UseReducer /> */} 
+      {/* <WithoutuseMemo /> */}
+      <UseMemo />
+      <UseCallback />
     </>
   )
 }
