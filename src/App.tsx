@@ -5,6 +5,8 @@
 // import Temperaturewarningconrender from "./Components/Temperaturewarningconrender";
 // import UsercontextExample from "./Components/UsercontextExample";
 // import UseReducer from "./Components/UseReducer";
+import Exampleone from "./Components/Exampleone";
+import Exampletwo from "./Components/Exampletwo";
 import UseCallback from "./Components/UseCallback";
 import UseMemo from "./Components/UseMemo";
 import WithoutuseMemo from "./Components/WithoutuseMemo";
@@ -29,8 +31,10 @@ function App() {
     <UsercontextExample />
     <UseReducer /> */} 
       {/* <WithoutuseMemo /> */}
-      <UseMemo />
-      <UseCallback />
+      {/* <UseMemo />
+      <UseCallback /> */}
+      <Exampleone />
+      <Exampletwo />
     </>
   )
 }
