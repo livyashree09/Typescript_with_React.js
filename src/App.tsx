@@ -7,6 +7,7 @@
 // import UseReducer from "./Components/UseReducer";
 import Exampleone from "./Components/Exampleone";
 import Exampletwo from "./Components/Exampletwo";
+import Helloworld from "./Components/Helloworld";
 import UseCallback from "./Components/UseCallback";
 import UseMemo from "./Components/UseMemo";
 import Usestatee from "./Components/Usestatee";
@@ -36,11 +37,10 @@ function App() {
       <UseCallback /> */}
       <Exampleone />
       <Exampletwo />
-<<<<<<< Updated upstream
-=======
+
       <Helloworld />
       <Usestatee />
->>>>>>> Stashed changes
+
     </>
   )
 }
