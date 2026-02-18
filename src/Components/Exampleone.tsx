@@ -43,10 +43,10 @@ const Exampleone = () =>{
             <p>Password: {show.password}</p>
             <p>Errors: {JSON.stringify(show.errors)}</p>
         </div>
-        <button className="btn btn-primary flex bg-slate-600" onClick={()=>dispatch({type:"SET_USERNAME", field:"username", value:"JohnDoe"})}>Set Username</button>
-        <button className="btn btn-primary flex bg-slate-600" onClick={()=>dispatch({type:"SET_PASSWORD", field:"password", value:"password123"})}>Set Password</button>
-        <button className="btn btn-primary flex bg-slate-600"onClick={()=>dispatch({type:"SET_ERRORS", errors:{username:"Username is required", password:"Password must be at least 8 characters"}})}>Set Errors</button>
-        <button className="btn btn-primary flex bg-green-600" onClick={()=>dispatch({type:"SUBMIT"})}>Submit</button>
+        <button className="btn btn-primary flex bg-slate-600 justify-center items-center" onClick={()=>dispatch({type:"SET_USERNAME", field:"username", value:"JohnDoe"})}>Set Username</button>
+        <button className="btn btn-primary flex bg-slate-600 justify-center items-center" onClick={()=>dispatch({type:"SET_PASSWORD", field:"password", value:"password123"})}>Set Password</button>
+        <button className="btn btn-primary flex bg-slate-600 justify-center items-center"onClick={()=>dispatch({type:"SET_ERRORS", errors:{username:"Username is required", password:"Password must be at least 8 characters"}})}>Set Errors</button>
+        <button className="btn btn-primary flex bg-green-600 justify-center items-center" onClick={()=>dispatch({type:"SUBMIT"})}>Submit</button>
         
         </>
     )
