@@ -10,6 +10,7 @@ import Exampletwo from "./Components/Exampletwo";
 import Helloworld from "./Components/Helloworld";
 import UseCallback from "./Components/UseCallback";
 import UseMemo from "./Components/UseMemo";
+import Usestatee from "./Components/Usestatee";
 import WithoutuseMemo from "./Components/WithoutuseMemo";
 // import Useref from "./Components/Useref";
 // import UserStatus from "./Components/UserStatus";
@@ -36,7 +37,10 @@ function App() {
       <UseCallback /> */}
       <Exampleone />
       <Exampletwo />
+
       <Helloworld />
+      <Usestatee />
+
     </>
   )
 }
